@@ -180,25 +180,21 @@ Fraud Detection
 Identifies suspicious claim patterns and abnormal worker activity.
 
 
-# System Workflow
+## System Workflow
 
-Worker registers and selects an insurance plan
-↓
-System continuously monitors environmental conditions
-↓
-Disruption event detected
-↓
-Worker activity verified
-↓
-Delivery drop calculated
-↓
-AI evaluates income loss risk
-↓
-Automatic claim generated
-↓
-Fraud detection verification
-↓
-Compensation payout to worker
+The GigShield AI platform automatically detects disruption events and processes claims using the following workflow.
+
+| Step | Process |
+|-----|--------|
+| 1 | Worker registers and selects an insurance plan |
+| 2 | System continuously monitors environmental conditions |
+| 3 | Environmental disruption detected |
+| 4 | Worker activity is verified |
+| 5 | Delivery performance drop is calculated |
+| 6 | AI model evaluates income loss risk |
+| 7 | Automatic insurance claim generated |
+| 8 | Fraud detection verification |
+| 9 | Compensation payout to the worker |
 
 
 # Technology Stack
@@ -224,10 +220,15 @@ Air Quality API
 
 gigshield-ai
 │
-├── frontend
-├── backend
-├── ai-service
-└── architecture
+├── frontend/ # React + Vite worker dashboard
+│
+├── backend/ # Spring Boot microservices
+│
+├── ai-service/ # Machine learning models and prediction APIs
+│
+├── architecture/ # System architecture diagrams
+│
+└── README.md # Project documentation
 
 
 # Innovation
