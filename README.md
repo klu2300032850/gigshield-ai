@@ -216,20 +216,21 @@ Weather API
 Air Quality API
 
 
-# Project Structure
+## Project Structure
 
-gigshield-ai
+```text
+gigshield-ai/
 │
-├── frontend/ # React + Vite worker dashboard
+├── frontend/          # React + Vite worker dashboard
 │
-├── backend/ # Spring Boot microservices
+├── backend/           # Spring Boot microservices
 │
-├── ai-service/ # Machine learning models and prediction APIs
+├── ai-service/        # AI/ML prediction services
 │
-├── architecture/ # System architecture diagrams
+├── architecture/      # System architecture diagrams
 │
-└── README.md # Project documentation
-
+└── README.md          # Project documentation
+```
 
 # Innovation
 
